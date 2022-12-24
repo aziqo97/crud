@@ -1,0 +1,44 @@
+body{background-color:lightgray;}
+table{
+	width:100%;
+}
+td form {
+	margin:0;padding:0;
+}
+td form button.button{
+	padding:0.25em;margin:0.25em;
+	background:none;
+	color:blue;
+}
+td form button.button:hover{
+  background:none;
+	color:steelblue;
+}
+.ico{
+    max-height:25px;
+}
+h1 {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}
