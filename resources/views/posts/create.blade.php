@@ -5,7 +5,7 @@
     <div class="container">
         <div class=" text-center mt-5 ">
 
-            <h1>Post yaratish formasi</h1>
+            <h1>Форма для регистратсия ползователя</h1>
 
 
         </div>
@@ -22,29 +22,20 @@
                                         @csrf
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="form_name">Post nomini kiriting</label>
+                                                <label for="form_name">Введите имя</label>
                                                 <input id="form_name" type="text" name="nomi" class="form-control"
-                                                       placeholder="Iltimos post nomini kiriting *" required="required"
-                                                       data-error="Iltimos post nomini kiriting.">
+                                                       placeholder="Введите имя *" required="required"
+                                                       data-error="Введите имя.">
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="form_name">Post rasmini yuklang</label>
+                                                <label for="form_name">Загрузите фотографию</label>
                                                 <input id="form_name" type="file" name="rasmi" class="form-control">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label for="form_message">Izox *</label>
-                                                <textarea id="form_message" name="izox" class="form-control"
-                                                          placeholder="Iltimos izoxni kiriting" rows="4"
-                                                          required="required"
-                                                          data-error="Iltimos izoxni kiriting"></textarea>
-                                            </div>
-                                        </div>
                                         <div class="col-md-12">
                                             <button type="submit" class="btn btn-success btn-send  pt-2 btn-block">Saqlash</button>
                                         </div>

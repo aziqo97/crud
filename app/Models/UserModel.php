@@ -5,8 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class UserModel extends Model
 {
     use HasFactory;
-       protected $fillable = ['id', 'nomi', 'izox','rasm', 'summa'];
+    protected $fillable = ['id', 'nomi', 'izox','rasm','summa','added'];
+    protected $table = 'posts';
 }

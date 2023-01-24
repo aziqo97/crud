@@ -25,8 +25,8 @@
     <title>Testoviy zadanie!</title>
 
 </head>
+
+<body>
 @yield('content')
-<br><br><br><br></center>
-</div>
 </body>
 </html>
